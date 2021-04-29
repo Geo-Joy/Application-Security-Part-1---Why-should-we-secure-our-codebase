@@ -1,0 +1,103 @@
+1. s3://olo-database-backup/gateway_mongo/2021-02-28.tar.gz
+============
+.
+├── [  26]  backup
+│   └── [  21]  MONGO-BACKUP
+│       └── [  24]  gateway
+│           └── [ 184]  2021-02-28
+│               ├── [  31]  mssql_credential
+│               │   └── [  32]  10.3.11.236_27017
+│               │       └── [  21]  04-00-01-452932755
+│               │           └── [  73]  gateway
+│               │               ├── [263K]  mssql_credential.bson
+│               │               └── [  96]  mssql_credential.metadata.json
+│               ├── [  31]  order_log
+│               │   └── [  32]  10.3.11.236_27017
+│               │       └── [  21]  04-00-02-031057310
+│               │           └── [  83]  gateway
+│               │               ├── [501G]  order_log.bson
+│               │               ├── [ 451]  order_log.metadata.json
+│               │               └── [466M]  ph_no_stats.json
+│               ├── [  31]  people_plan
+│               │   └── [  32]  10.3.11.236_27017
+│               │       └── [  21]  05-59-09-786041490
+│               │           └── [  63]  gateway
+│               │               ├── [1000K]  people_plan.bson
+│               │               └── [  91]  people_plan.metadata.json
+│               ├── [  31]  stores
+│               │   └── [  32]  10.3.11.236_27017
+│               │       └── [  21]  05-59-10-107241396
+│               │           └── [  53]  gateway
+│               │               ├── [2.7M]  stores.bson
+│               │               └── [  86]  stores.metadata.json
+│               ├── [  31]  stores_status_log
+│               │   └── [  32]  10.3.11.236_27017
+│               │       └── [  21]  05-59-10-221759373
+│               │           └── [  75]  gateway
+│               │               ├── [5.4G]  stores_status_log.bson
+│               │               └── [  97]  stores_status_log.metadata.json
+│               ├── [  31]  store_status
+│               │   └── [  58]  10.3.11.236_27017
+│               │       ├── [  21]  05-59-10-013628249
+│               │       │   └── [  65]  gateway
+│               │       │       ├── [ 105]  store_status.bson
+│               │       │       └── [  92]  store_status.metadata.json
+│               │       └── [  21]  06-04-28-919763791
+│               │           └── [  65]  gateway
+│               │               ├── [ 105]  store_status.bson
+│               │               └── [  92]  store_status.metadata.json
+│               ├── [  31]  system.indexes
+│               │   └── [  32]  10.3.11.236_27017
+│               │       └── [  21]  06-04-29-019657942
+│               │           └── [  33]  gateway
+│               │               └── [1.5K]  system.indexes.bson
+│               ├── [  31]  system.users
+│               │   └── [  32]  10.3.11.236_27017
+│               │       └── [   6]  06-04-29-099448530
+│               └── [  31]  track_log
+│                   └── [  32]  10.3.11.236_27017
+│                       └── [  21]  06-04-29-179574014
+│                           └── [  59]  gateway
+│                               ├── [193G]  track_log.bson
+│                               └── [  89]  track_log.metadata.json
+└── [ 51G]  six.tar.gz
+
+41 directories, 19 files
+
+
+
+
+2. s3://olo-database-backup/new_mongo/2021-01-22.tar.gz
+===============
+.
+├── [102G]  2021-01-22.tar.gz
+└── [  26]  backup
+    └── [  30]  MONGO-BACKUP
+        └── [  24]  wistores_dominos
+            └── [ 104]  2021-01-22
+                ├── [  30]  exampleCollection
+                │   └── [  32]  10.0.5.109_27017
+                │       └── [  30]  04-01-01-928313309
+                │           └── [  75]  wistores_dominos
+                │               ├── [ 32K]  exampleCollection.bson
+                │               └── [ 241]  exampleCollection.metadata.json
+                ├── [  30]  orders
+                │   └── [  32]  10.0.5.109_27017
+                │       └── [  30]  04-01-02-285997544
+                │           └── [  53]  wistores_dominos
+                │               ├── [584G]  orders.bson
+                │               └── [ 869]  orders.metadata.json
+                ├── [  30]  ordersxml
+                │   └── [  32]  10.0.5.109_27017
+                │       └── [  30]  05-42-20-424138504
+                │           └── [  59]  wistores_dominos
+                │               ├── [6.7G]  ordersxml.bson
+                │               └── [ 140]  ordersxml.metadata.json
+                └── [  38]  walletCurrency
+                    └── [  40]  10.0.5.109_27017
+                        └── [  38]  05-42-48-989989857
+                            └── [  81]  wistores_dominos
+                                ├── [ 515]  walletCurrency.bson
+                                └── [ 145]  walletCurrency.metadata.json
+
+20 directories, 9 files
